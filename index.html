@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blancreme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <a href="#">SE CONNECTER</a>
+          <a href="#">MON PANIER</a>
+          <a href="#"><span>0</span></a>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      </header>
+      <section class="hero-section">
+        <div class="header_image">
+          <img
+            src="https://www.blancreme.com/app/themes/blancreme-boutique/assets/images/blancreme.svg"
+            alt="Blancreme logo"
+          />
+        </div>
+        <h2 class="centered_text">Soins naturels & gourmands</h2>
+        <hr />
+      </section>
+      <section class="all_navs">
+        <div class="close-icon" onclick="toggleMenu()">x</div>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#">VISAGE</a>
+            <ul class="submenu">
+              <li><a href="#">Démaquillants</a></li>
+              <li><a href="#">Gommages</a></li>
+              <li><a href="#">Masques</a></li>
+              <li><a href="#">Sérums</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">CORPS</a>
+            <ul class="submenu">
+              <li><a href="#">Crèmes Corps</a></li>
+              <li><a href="#">Huiles Corps</a></li>
+              <li><a href="#">Laits Corps</a></li>
+              <li><a href="#">Crèmes Mains</a></li>
+              <li><a href="#">Eaux Fraîches</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">BAIN-DOUCHE</a>
+            <ul class="submenu">
+              <li><a href="#">CRÈMES MOUSSANTES</a></li>
+              <li><a href="#"> SOINS DOUCHE</a></li>
+              <li><a href="#"> GELS DOUCHE</a></li>
+              <li><a href="#">SPA</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">MASSAGE</a>
+            <ul class="submenu">
+              <li><a href="#">JEUX DE MASSAGES</a></li>
+              <li><a href="#">GELS MASSAGE</a></li>
+              <li><a href="#">MASSAGES FONDANTS</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">COFFRETS</a>
+            <ul class="submenu">
+              <li><a href="#">CALENDRIER DE L'AVENT</a></li>
+              <li><a href="#">DUOS</a></li>
+              <li><a href="#">TRIOS</a></li>
+              <li><a href="#">TROUSSES</a></li>
+              <li><a href="#">COFFRETS SOIN</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">GAMMES</a>
+            <ul class="submenu">
+              <li><a href="#">MIEL & AMANDE</a></li>
+              <li><a href="#"> PÊCHE & ABRICOT</a></li>
+              <li><a href="#"> COCO & LITCHI </a></li>
+              <li><a href="#"> FRAISE & GRENADE</a></li>
+              <li><a href="#">MANGUE & PASSION</a></li>
+              <li><a href="#">VANILLE & TONKA</a></li>
+              <li><a href="#">PAMPLEMOUSSE & BASILIC</a></li>
+              <li><a href="#">POMME & NOISETTE</a></li>
+              <li><a href="#">COCKTAIL</a></li>
+            </ul>
+          </li>
+          <li><a href="#">LA MARQUE</a></li>
+        </ul>
+      </section>
+
+      <hr class="menu-line" />
+
+      <section class="carousel">
+        <img
+          src="Sans-titre-600-x-600-px-940-x-788-px-1-1-940x400.png"
+          class="carousel-image active"
+          alt="Image 1"
+        />
+        <img src="gommage-1280x400.jpg" class="carousel-image" alt="Image 2" />
+        <img
+          src="frenchbeautybox-1080x400.png"
+          class="carousel-image"
+          alt="Image 3"
+        />
+        <div class="carousel-caption">
+          <h1 id="carousel-heading">- 30 % sur la routine Détox !</h1>
+          <p id="carousel-description">
+            5 gestes essentiels dans un joli coffret...
+          </p>
+          <button id="carousel-button">JE DÉCOUVRE</button>
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="1from.jpg" alt="Crème corps fondante Miel & Amande" />
+          <h3>Crème corps fondante Miel & Amande</h3>
+          <p>À partir de <strong>8,00€</strong></p>
+        </div>
+
+        <div class="product-item">
+          <img src="2from.jpg" alt="Sorbet exfoliant Orange & citron" />
+          <h3>Sorbet exfoliant Orange & citron</h3>
+          <p>À partir de <strong>9,50€</strong></p>
+        </div>
+
+        <div class="product-item">
+          <img src="3from.jpg" alt="Gommage visage Bambou" />
+          <h3>Gommage visage Bambou</h3>
+          <p>À partir de <strong>9,50€</strong></p>
+        </div>
+
+        <div class="product-item">
+          <img src="4from.jpg" alt="Masque visage Miel" />
+          <h3>Masque visage Miel</h3>
+          <p>À partir de <strong>9,50€</strong></p>
+        </div>
+
+        <div class="product-item special-offer">
+          <h2>Livraison offerte</h2>
+          <p>à partir de 60€ d'achat*</p>
+          <p>*Pour une livraison en Colissimo vers la France</p>
+        </div>
+
+        <div class="product-item">
+          <img src="5from.jpg" alt="Masque visage Charbon" />
+          <h3>Masque visage Charbon</h3>
+          <p>À partir de <strong>9,50€</strong></p>
+        </div>
+
+        <div class="product-item">
+          <img src="6from.jpg" alt="Gommage corps Noix de coco" />
+          <h3>Gommage corps Noix de coco</h3>
+          <p>À partir de <strong>7,00€</strong></p>
+        </div>
+
+        <div class="product-item">
+          <img src="7froem.png" alt="Calendrier de l'Avent Magic Forest" />
+          <h3>Calendrier de l'Avent Magic Forest</h3>
+          <p>À partir de <strong>79,00€</strong></p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          src="withgreem.jpg"
+          alt="Blancrème background"
+          class="background-image"
+        />
+        <div class="animated-box">
+          <h2>Blancrème</h2>
+          <p>De l'idée à la fabrication, découvrez l'histoire de la marque</p>
+          <button>JE DÉCOUVRE</button>
+        </div>
+      </div>
+
+      <div class="carousel-funhouse">
+        <div class="slide-pizza active-slide">
+          <div class="left-taco">
+            <h2>Elles en parlent !</h2>
+            <p>
+              « Coup de cœur pour la marmelade exfoliante au Thé Vert, riche en
+              théanine drainante et en huile de noix de coco nourrissante. Une
+              sensation de bien-être incomparable à vivre. »
+            </p>
+            <p><strong>Elle Magazine</strong></p>
+            <img src="bir.png" alt="Orange" />
+          </div>
+          <div class="right-burger">
+            <img
+              src="blog-background-51bec62bac14e22840b8bd8fd6fe6f61.jpg"
+              alt="Beauty Products"
+              class="static-picture"
+            />
+            <h3>Carnets beauté</h3>
+            <p>Nos coffrets pour la fête des mères</p>
+            <button>Discover Me</button>
+          </div>
+        </div>
+
+        <div class="slide-pizza">
+          <div class="left-taco">
+            <h2>Elles en parlent !</h2>
+            <p>
+              « Concept : Une ligne d'inspiration gourmande qui chouchoute le
+              visage et le corps. Un design faussement culinaire et des textures
+              à mélanger dans l'eau. »
+            </p>
+            <p><strong>Be.com</strong></p>
+            <img src="eki.png" alt="Pink Cubes" />
+          </div>
+          <div class="right-burger">
+            <img
+              src="blog-background-51bec62bac14e22840b8bd8fd6fe6f61.jpg"
+              alt="Beauty Products"
+              class="static-picture"
+            />
+            <h3>Carnets beauté</h3>
+            <p>Nos coffrets pour la fête des mères</p>
+            <button>Discover Me</button>
+          </div>
+        </div>
+
+        <div class="slide-pizza">
+          <div class="left-taco">
+            <h2>Elles en parlent !</h2>
+            <p>
+              « Des 'nectars de bain' (so chic !) à l'extrait de cacao et à
+              l'huile essentielle d'orange enveloppe la peau d'une vague de
+              douceur. »
+            </p>
+            <p><strong>Madmoizelle</strong></p>
+            <img src="ush.png" alt="Cacao" />
+          </div>
+          <div class="right-burger">
+            <img
+              src="blog-background-51bec62bac14e22840b8bd8fd6fe6f61.jpg"
+              alt="Beauty Products"
+              class="static-picture"
+            />
+            <h3>Carnets beauté</h3>
+            <p>Nos coffrets pour la fête des mères</p>
+            <button>JE DÉCOUVRE</button>
+          </div>
+        </div>
+
+        <div class="dots-icecream">
+          <span class="dot-fries active-dot"></span>
+          <span class="dot-fries"></span>
+          <span class="dot-fries"></span>
+        </div>
+      </div>
+
+      <div class="image-container">
+        <img src="withyellow.jpg" alt="Products" class="main-image" />
+        <div class="yellow-rectangle">
+          <h3>Dites-le avec Blancrème</h3>
+          <p>Coffrets cadeaux, duo de produits... offrez la douceur</p>
+          <button>JE DÉCOUVRE</button>
+        </div>
+      </div>
+    </main>
+    <footer class="black">
+      <div class="left">
+        <h1>Newsletter Blancrème</h1>
+        <p>
+          Inscrivez vous pour tout savoir de nos nouveautés et recevoir des
+          informations et avantages exclusifs !
+        </p>
+      </div>
+      <div class="right">
+        <input type="email" placeholder="Votre adresse e-mail" />
+        <button>
+          <a href="#"><span class="arrow"></span></a>
+        </button>
+      </div>
+    </footer>
+    <footer class="end">
+      <div class="right_side">
+        <div class="resize">
+          <img
+            src="https://www.blancreme.com/app/themes/blancreme-boutique/assets/images/blancreme.svg"
+            alt="Blancreme logo"
+          />
+        </div>
+        <h3>Soins naturels & gourmands</h3>
+      </div>
+      <div class="other_sides">
+        <h2>Services & Aide</h2>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Transport et livraison</a></li>
+          <li><a href="#">Paiement sécurisé</a></li>
+          <li><a href="#">Mon compte</a></li>
+          <li><a href="#">Charte avis clients</a></li>
+        </ul>
+      </div>
+      <div class="other_sides">
+        <h2>Plus d'info</h2>
+        <ul>
+          <li><a href="#">La marque</a></li>
+          <li><a href="#">Carnets beauté</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Données personnelles</a></li>
+          <li><a href="#">Charte cookies </a></li>
+        </ul>
+      </div>
+      <div class="other_sides">
+        <h2>Service client</h2>
+        <h2>09 72 65 93 56</h2>
+        <h4>Avec le soutien de</h4>
+        <div class="inline_imges">
+          <div class="img1">
+            <img
+              src="https://www.blancreme.com/app/themes/blancreme-boutique/assets/images/region-normandie.svg"
+              alt="Region Normandie"
+            />
+          </div>
+          <div class="img1">
+            <img
+              src="https://www.blancreme.com/app/themes/blancreme-boutique/assets/images/france-relance.svg"
+              alt="France Relance"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="final">
+      Ⓒ2024 Blancrème Paris. Tous droits réservés. consignes de triNos
+      emballages peuvent faire l'objet d'une consigne de tri. Pour en savoir
+      plus : <a href="#">consignesdetri.fr</a>
+    </p>
+    <script src="home.js"></script>
+  </body>
+</html>
